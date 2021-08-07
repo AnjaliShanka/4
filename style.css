@@ -1,41 +1,68 @@
-.heading
+body
 {
-    font-size: 23px;
-    width: 100%;
-    margin: 0px;
-    box-shadow:5px5px 5px rgb(122, 8, 8);
+    font-family: 'Inconsolata', monospace;
+    background-color: darksalmon;
 }
-.heading_div
+.header_div
 {
-    float:none;
-    background: white;
+    background:ghostwhite;
+    color:purple;
+}
+.header_div img
+{
+    width: 100px
+}
+.main_div
+{
+    background: rgb(100, 183, 238);
     padding: 10px;
-    border-radius: 20px;
-    color:black;
-    box-shadow:5px 5px 5px rgb(122, 8, 8,);
+    margin-top:  15px;
+    border: 3px solid white;
 }
-.heading_div2
+.main_div label
 {
-    font-size:18px;
+    background: white;
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px black;
 }
-.result_para_tag
+#camera
 {
-    box-shadow:5px 5px 5px grey;
-    font-size: 20px;
+    border: 2px solid black;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px black;
 }
-.copy_right_footer {
+.main_div button
+{
+    width:310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 18px black;
+    border: 1px solid;
+}
+.footer_div
+{
+    margin-bottom: 50px;
+}
+.footer_div h4
+{
+    background:cadetblue;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px cadetblue;
+}
+.footer_div img
+{
+    width: 70px;
+}
+.copy_right_footer
+{
     position: fixed;
-    color:white;
-    bottom:0;
+    color: maroon;
+    bottom: 0;
     width: 100%;
-    background-color:grey;
-    line-height:3;
-    text-align:center;
-}
-canvas
-{
-    border:5px solid white;
-    border-radius:20px;
-    box-shadow:5px 5px 5px grey;
-    margin-top:150px;
+    background-color: lightslategray;
+    line-height: 3;
+    text-align: center;
 }
